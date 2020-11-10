@@ -31,6 +31,16 @@
         font-weight: bold;
         font-size: larger
       }
+      .centeredb {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-weight: bold;
+        font-size: larger
+      }
+
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
@@ -106,14 +116,38 @@
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.open('https://youtu.be/0Ea-TuQUv8g')">
+            <div class="container">
+              <img src="./Reddit/icon.png" width="100%" height="225" fill="#55595c"/>
+              <div class="centeredb"> Reddit </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">A Reddit cliient I built for Android as part of UT-Austin's graduate level Android programming. This was written in Kotlin. </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="submit" onclick = "window.open ('./Reddit/Reddit.zip')" class="btn btn-sm btn-outline-secondary">Download Source Code</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm" style="cursor: pointer;" onclick="window.open('https://github.com/weberbs/OS.git')">
+            <div class="container">
+              <img src="./Xv6/icon.png" width="100%" height="225" fill="#55595c"/>
+              <div class="centered"> xv6 </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">xv6 is a simple unix like operating system built for teaching at MIT. I modified the source code of this operating system in C to expand its functionality.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="submit" onclick = "window.open ('https://github.com/weberbs/OS.git')" class="btn btn-sm btn-outline-secondary">Link to GitHub</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
             </div>
